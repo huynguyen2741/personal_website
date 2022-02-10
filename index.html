@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous" />
+        <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+              crossorigin="anonymous" />
+        <link rel="stylesheet"
+              href="./index.css" />
+        <title>Personal Website</title>
+    </head>
+
+    <body>
+        <!-- fix this -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbar">
+                <span class="navbar-toggler-icon" />
+            </button>
+            <div class=" collapse navbar-collapse justify-content-center"
+                 id="navbar">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link"
+                       href="#introduction">Home</a>
+                    <a class="nav-item nav-link"
+                       href="#about_me">About Me</a>
+                    <a class="nav-item nav-link"
+                       href="#projects">Projects</a>
+                    <a class="nav-item nav-link"
+                       href="#contact_me">Contact Me</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-content">
+            <div class="row introduction align-items-center "
+                 id="introduction">
+                <div class="col">
+                    <h1><b>Huy Nguyen</b></h1>
+                    <h3>Software Developer</h3>
+                    <br />
+                    <a class="btn btn-primary about_me_button"
+                       href="#about_me">About Me</a>
+                    <a class="btn btn-primary projects_button"
+                       href="#projects">My Projects</a>
+                </div>
+                <div class="col">
+                    <img src="./thumbnail-image.jpg"
+                         id="thumbnail-image" />
+                </div>
+            </div>
+            <div class="row about_me align-items-center"
+                 id="about_me">
+                <div class="col">
+                    <h1><b>About Me</b></h1>
+                </div>
+                <div class="col">
+                    <p>Hello, my name is Huy Nguyen<br />
+                        I am currently looking for a Software Developer position to enhance my growth in software
+                        developing.<br />
+                        My technical skills include:
+                    </p>
+                    <span>
+                        <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
+                        <b>Html</b><br />
+                        <img src="https://img.icons8.com/color/48/000000/css3.png" />
+                        <b>CSS</b><br />
+                        <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" />
+                        <b>Javascript, NodeJs, ReactJs, ExpressJs</b><br />
+                        <img src="https://img.icons8.com/color/48/000000/python--v1.png" />
+                        <b>Python</b><br />
+                        <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" />
+                        <b>Java</b><br />
+                        <img src="https://img.icons8.com/color/48/000000/mongodb.png" />
+                        <b>MongoDb</b><br />
+                        <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" />
+                        <b>mySql</b><br />
+                    </span>
+                </div>
+            </div>
+            <div class="row projects justify-content-center">
+                <h1><b>Projects</b></h1>
+            </div>
+            <div class="project_list justify-content-center">
+                <div id="projects">
+                    <div class="row">
+                        <div class="col"><img></div>
+                        <div class="col">
+                            <a href="https://utube-vid-search.netlify.app/">Youtube Video Search</a><br />
+                            <p>A webpage that allows user to search and view youtube videos based on a keyword. A simple
+                                authentication is used for log in and log out users.</p>
+                            <span>Technology used: <b>MongoDb, ExpressJs, ReactJs, NodeJs, HTML, CSS</b></span>
+                        </div>
+                    </div>
+                    <hr />
+                    <br />
+                    <div class="row">
+                        <div class="col"><img></div>
+                        <div class="col">
+                            <a href="https://huynguyen2741.github.io/restaurant_web/">Restaurannt Website</a>
+                            <p>A restaurant website constructed by utilizing html, css and javascript.</p>
+                            <span>Technology used: <b>JavaScript, HTML, CSS</b></span>
+                        </div>
+                    </div>
+                    <hr />
+                    <br />
+                    <!-- <div class="row">
+                        <div class="col"><img></div>
+                        <div class="col">
+                            <a href="/">School website</a>
+                            <p></p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="row contact_me"
+                 id="contact_me">
+                <div class="col">
+                    <h1><b>Contact Me</b></h1>
+                </div>
+                <div class="col">
+                    <p>
+                        <b>
+                            <h4>Huy Nguyen</h4>
+                        </b><br />Annandale, VA 22003<br />
+                        <b>Email:</b> hmd.nguyen93@gmail.com<br />
+                        <a href="https://www.linkedin.com/feed/">My LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+    </body>
+
+</html>
